@@ -1,0 +1,15 @@
+﻿<Window x:Class="NthWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NthWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Postsbutton" Content="Post with this unnecessarily large button to get some crap that doesn't fit in the label. Ha, we have fun." HorizontalAlignment="Left" Margin="42,39,0,0" VerticalAlignment="Top" Width="705" Height="98" Click="Postsbutton_Click"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="0,154,0,0" VerticalAlignment="Top" Height="178" Width="782"/>
+        <Button x:Name="buttonclear" Content="Clear" HorizontalAlignment="Left" Margin="29,368,0,0" VerticalAlignment="Top" Width="75" Click="buttonclear_Click"/>
+
+    </Grid>
+</Window>
