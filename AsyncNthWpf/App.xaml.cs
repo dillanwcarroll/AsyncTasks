@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace NthWPF_Task3_
+namespace AsyncNthWpf
 {
     /// <summary>
     /// Interaction logic for App.xaml

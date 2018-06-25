@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiConsole", "MultiConsole\MultiConsole.csproj", "{63F9D219-8755-4426-BCC6-6EBA34F33711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthWpf", "NthWpf\NthWpf.csproj", "{DFE16CB9-9FCD-4901-AC8D-345EB8736BE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonPostWpf", "NthWpf\JsonPostWpf.csproj", "{DFE16CB9-9FCD-4901-AC8D-345EB8736BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncNthWpf", "AsyncNthWpf\AsyncNthWpf.csproj", "{B9A62972-630B-4A8B-A2C9-A3EB31ECB00F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DFE16CB9-9FCD-4901-AC8D-345EB8736BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE16CB9-9FCD-4901-AC8D-345EB8736BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE16CB9-9FCD-4901-AC8D-345EB8736BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A62972-630B-4A8B-A2C9-A3EB31ECB00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A62972-630B-4A8B-A2C9-A3EB31ECB00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A62972-630B-4A8B-A2C9-A3EB31ECB00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A62972-630B-4A8B-A2C9-A3EB31ECB00F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

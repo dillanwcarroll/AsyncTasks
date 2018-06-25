@@ -36,19 +36,18 @@ namespace ClassLibrary
             return (--a);
         }
 
-        public async static void PAsync(int input)
+        public async static void PAsync(int n)
         {
-            var task = await Task.Run(() => PSync(input));
+            var task = await Task.Run(() => PSync(n));
             Console.WriteLine(task);
             Console.WriteLine(DateTime.Now);
 
         }
 
-        public static async Task<long> testWPFAsync(int input) //not needed I realised, because eve
+        public static async Task<long> testWPFAsync(int n)
         {
-            var task = await Task.Run(() => PSync(input));
+            var task = await Task.Run(() => PSync(n));
             return task;
-
         }
     }
 }

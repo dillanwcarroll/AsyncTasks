@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NthWPF_Task3_.Properties
+namespace AsyncNthWpf.Properties
 {
 
 

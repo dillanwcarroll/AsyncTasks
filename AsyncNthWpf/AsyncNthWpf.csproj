@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3233D80A-F23A-4437-8917-24A28135EED2}</ProjectGuid>
+    <ProjectGuid>{B9A62972-630B-4A8B-A2C9-A3EB31ECB00F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NthWPF_Task3_</RootNamespace>
-    <AssemblyName>NthWPF%28Task3%29</AssemblyName>
+    <RootNamespace>AsyncNthWpf</RootNamespace>
+    <AssemblyName>AsyncNthWpf</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,7 +54,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="WPFAsync\Class.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
